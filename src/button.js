@@ -4,8 +4,8 @@
  * @param {string} buttonName
  * @returns {Element}
  */
-const makeButton = buttonName => {
-  const buttonLabel = `Button: ${buttonName}`;
+const makeButton = (buttonName) => {
+  const buttonLabel = `Button Amazing: ${buttonName}`;
 
   const button = document.createElement("button");
   button.innerText = buttonLabel;

@@ -1,3 +1,5 @@
+import "./styles.css";
+
 import { red, blue } from "./button-styles";
 
 const top = document.createElement("div");
